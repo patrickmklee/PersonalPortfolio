@@ -63,13 +63,21 @@ nav a {
   text-decoration: none;
   padding: 5px 10px;
   color: var(--secondary);
-  margin-right: 10px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+  margin-right: 10px;
+  /* background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%); */
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 nav a:hover {
@@ -243,6 +251,9 @@ main {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
+.password-generator {
+  background-image: url("../images/portfolio-password-generator-1.PNG")
+}
 /* END PORTFOLIO PROJECT IMAGES */
 
 @media screen and (max-width: 980px) {
